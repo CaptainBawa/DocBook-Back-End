@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-# DocBook-Back-End
-=======
+
 <a name="readme-top"></a>
 
 # 📗 Table of Contents
@@ -183,4 +181,4 @@ If you like this project please help it stand out by giving it a star ✨
 This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
->>>>>>> 14e33c5 (setup rail app as API)
+
