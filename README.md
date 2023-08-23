@@ -103,7 +103,7 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```sh
-  cd budget-app
+  cd DocBook-Back-End
   gem install
 ```
 
