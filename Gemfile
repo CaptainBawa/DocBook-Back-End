@@ -15,8 +15,8 @@ gem 'sqlite3', '~> 1.4'
 gem 'puma', '~> 5.0'
 # Add rubocop
 gem 'rubocop'
-# Build JSON APIs with ease [https://github.com/rails/jbuilder]
-# gem "jbuilder"
+# Add postgres database
+gem 'pg'
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
