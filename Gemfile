@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
@@ -11,9 +13,10 @@ gem 'sqlite3', '~> 1.4'
 
 # Use the Puma web server [https://github.com/puma/puma]
 gem 'puma', '~> 5.0'
-
-# Addd rubocop
+# Add rubocop
 gem 'rubocop'
+# Build JSON APIs with ease [https://github.com/rails/jbuilder]
+# gem "jbuilder"
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
