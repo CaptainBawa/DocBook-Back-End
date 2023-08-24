@@ -16,6 +16,8 @@ gem 'rubocop'
 # Add postgres database
 gem 'pg'
 
+gem 'cancancan'
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
