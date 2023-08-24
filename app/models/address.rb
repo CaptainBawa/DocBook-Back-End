@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 # The Address class represents an address
 # and has a many-to-many relationship with
 # the Doctor class through the DoctorAddress join table.

@@ -1,3 +1,6 @@
+# frozen_string_literal: true
+
+# CreateDoctors migration creates the doctors table
 class CreateDoctors < ActiveRecord::Migration[7.0]
   def change
     create_table :doctors do |t|

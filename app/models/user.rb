@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 # The User class has a one-to-many relationship
 # with the Appointment and Doctor classes, and the
 # dependent option is set to destroy.

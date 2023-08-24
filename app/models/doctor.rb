@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 # The Doctor class is a model that represents a
 # doctor and has associations with users,
 # appointments, and addresses.
