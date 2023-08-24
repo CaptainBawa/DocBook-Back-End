@@ -9,8 +9,9 @@ class Ability
     else
       can :create, Appointment
       can :read, Appointment, user_id: user.id
-      can :update, Appointment, user_id: user.id
+      can :destroy, Appointment,user_id: user.id
 
+      can :create, Doctor
       can :read, Doctor, user_id: user.id
       can :read, Address do |address|
         address.doctors.any? { |doctor| doctor.user_id == user.id }
