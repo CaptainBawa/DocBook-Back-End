@@ -4,4 +4,9 @@
 class Address < ApplicationRecord
   has_many :doctor_addresses, dependent: :destroy
   has_many :doctors, through: :doctor_addresses
+
+  validates :country, presence: true
+  validates :city, presence: true
+  validates :state, presence: true
+  validates :street, presence: true
 end
