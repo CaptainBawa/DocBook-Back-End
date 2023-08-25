@@ -15,6 +15,7 @@ gem 'puma', '~> 5.0'
 gem 'rubocop'
 # Add postgres database
 gem 'pg'
+gem 'rspec-rails', '~> 5.0'
 
 gem 'cancancan'
 gem 'devise'
