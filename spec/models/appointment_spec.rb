@@ -7,5 +7,4 @@ RSpec.describe Appointment, type: :model do
   end
 
   it { should validate_presence_of(:appointment_date) }
-
 end

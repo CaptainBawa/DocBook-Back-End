@@ -25,9 +25,9 @@ RSpec.describe User, type: :model do
   end
 
   it 'validates the uniqueness of username' do
-    existing_user = User.create(username: 'existinguser', email: 'existing@example.com', password: 'password')
+    User.create(username: 'existinguser', email: 'existing@example.com', password: 'password')
     user = User.new(username: 'existinguser', email: 'test@example.com', password: 'password')
     expect(user).to_not be_valid
-    expect(user.errors[:username]).to include("has already been taken")
+    expect(user.errors[:username]).to include('has already been taken')
   end
 end

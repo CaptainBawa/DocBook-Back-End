@@ -4,7 +4,7 @@ RSpec.describe Doctor, type: :model do
   it 'is valid with valid attributes' do
     user = User.create(username: 'testuser', email: 'test@example.com', password: 'password')
     doctor = Doctor.new(
-      user: user,
+      user:,
       name: 'Dr. Test',
       email: 'drtest@example.com',
       phone_number: '1234567890',
@@ -22,7 +22,7 @@ RSpec.describe Doctor, type: :model do
   it 'has many appointments' do
     user = User.create(username: 'testuser', email: 'test@example.com', password: 'password')
     doctor = Doctor.create(
-      user: user,
+      user:,
       name: 'Dr. Test',
       email: 'drtest@example.com',
       phone_number: '1234567890',

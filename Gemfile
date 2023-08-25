@@ -11,7 +11,6 @@ gem 'sqlite3', '~> 1.4'
 
 gem 'shoulda-matchers', '~> 5.0'
 
-
 # Use the Puma web server [https://github.com/puma/puma]
 gem 'puma', '~> 5.0'
 # Add rubocop
