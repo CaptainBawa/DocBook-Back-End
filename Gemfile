@@ -6,8 +6,8 @@ ruby '3.2.2'
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem 'rails', '~> 7.0.7', '>= 7.0.7.2'
 
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3', '~> 1.4'
+# Use environment Variables for the Database Passwords
+gem 'dotenv-rails', groups: %i[development test]
 
 gem 'shoulda-matchers', '~> 5.0'
 
