@@ -19,9 +19,9 @@ RSpec.describe AppointmentsController, type: :controller do
         phone_number: '123-456-7890',
         specialty: 'General Medicine',
         price: 300.0,
-        user: user
+        user:
       )
-      appointment = Appointment.create(appointment_date: Date.today, user: user, doctor: doctor)
+      appointment = Appointment.create(appointment_date: Date.today, user:, doctor:)
 
       get :show, params: { id: appointment.id }
       expect(response).to have_http_status(:success)
@@ -37,9 +37,9 @@ RSpec.describe AppointmentsController, type: :controller do
         phone_number: '123-456-7890',
         specialty: 'General Medicine',
         price: 300.0,
-        user: user
+        user:
       )
-      appointment = Appointment.create(appointment_date: Date.today, user: user, doctor: doctor)
+      appointment = Appointment.create(appointment_date: Date.today, user:, doctor:)
 
       updated_date = Date.tomorrow
       put :update, params: { id: appointment.id, appointment: { appointment_date: updated_date } }
