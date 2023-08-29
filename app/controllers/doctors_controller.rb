@@ -17,6 +17,12 @@ class DoctorsController < ApplicationController
     end
   end
 
+  def show
+    user = User.find(params[:user_id])
+    doctor = user.doctors.find(params[:id])
+    render json: doctor, status: :ok
+  end
+
   def destroy
     doctor = Doctor.find(params[:id])
     doctor.destroy
