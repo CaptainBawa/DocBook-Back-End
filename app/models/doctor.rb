@@ -13,4 +13,6 @@ class Doctor < ApplicationRecord
   validates :phone_number, presence: true
   validates :specialty, presence: true
   validates :price, presence: true
+
+  accepts_nested_attributes_for :addresses
 end
