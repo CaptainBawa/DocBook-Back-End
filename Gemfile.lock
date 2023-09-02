@@ -66,6 +66,8 @@ GEM
       i18n (>= 1.6, < 2)
       minitest (>= 5.1)
       tzinfo (~> 2.0)
+    addressable (2.8.5)
+      public_suffix (>= 2.0.2, < 6.0)
     ast (2.4.2)
     base64 (0.1.1)
     bcrypt (3.1.19)
@@ -99,6 +101,8 @@ GEM
     irb (1.7.4)
       reline (>= 0.3.6)
     json (2.6.3)
+    json-schema (3.0.0)
+      addressable (>= 2.8)
     language_server-protocol (3.17.0.3)
     loofah (2.21.3)
       crass (~> 1.0.2)
@@ -134,6 +138,7 @@ GEM
       racc
     pg (1.5.3)
     pg (1.5.3-x64-mingw-ucrt)
+    public_suffix (5.0.3)
     puma (5.6.7)
       nio4r (~> 2.0)
     racc (1.7.1)
@@ -196,6 +201,20 @@ GEM
       rspec-mocks (~> 3.10)
       rspec-support (~> 3.10)
     rspec-support (3.12.1)
+    rswag (2.10.1)
+      rswag-api (= 2.10.1)
+      rswag-specs (= 2.10.1)
+      rswag-ui (= 2.10.1)
+    rswag-api (2.10.1)
+      railties (>= 3.1, < 7.1)
+    rswag-specs (2.10.1)
+      activesupport (>= 3.1, < 7.1)
+      json-schema (>= 2.2, < 4.0)
+      railties (>= 3.1, < 7.1)
+      rspec-core (>= 2.14)
+    rswag-ui (2.10.1)
+      actionpack (>= 3.1, < 7.1)
+      railties (>= 3.1, < 7.1)
     rubocop (1.56.1)
       base64 (~> 0.1.1)
       json (~> 2.3)
@@ -242,6 +261,9 @@ DEPENDENCIES
   rack-cors
   rails (~> 7.0.7, >= 7.0.7.2)
   rspec-rails (~> 5.0)
+  rswag
+  rswag-api
+  rswag-ui
   rubocop
   shoulda-matchers (~> 5.0)
   tzinfo-data

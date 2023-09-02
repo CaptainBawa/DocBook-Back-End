@@ -52,3 +52,8 @@ group :development do
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
 end
+
+# rsawg for manifest and API documenttaion
+gem 'rswag-api'
+gem 'rswag-ui'
+gem 'rswag'
