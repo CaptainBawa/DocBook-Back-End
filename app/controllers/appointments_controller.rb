@@ -12,6 +12,8 @@ class AppointmentsController < ApplicationController
 
   def create
     appointment = Appointment.new(appointment_params)
+    puts "Appointment Params: #{appointment_params.inspect}"
+    puts "New Appointment: #{appointment.inspect}"
     if appointment.save
       render json: appointment, include: %i[user doctor], status: :created
     else
@@ -39,6 +41,6 @@ class AppointmentsController < ApplicationController
   end
 
   def appointment_params
-    params.require(:appointment).permit(:appointment_date, :user_id, :doctor_id)
+    params.require(:appointment).permit(:appointment_date, :user_id, :doctor_id, :city)
   end
 end
