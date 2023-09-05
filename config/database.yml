@@ -24,8 +24,8 @@ default: &default
 development:
   <<: *default
   database: DocBook_Back_End_development
-  username: <%= ENV['DB_USERNAME'] %>
-  password: <%= ENV['DB_PASSWORD'] %>
+  # username: <%= ENV['DB_USERNAME'] %>
+  # password: <%= ENV['DB_PASSWORD'] %>
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.

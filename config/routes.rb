@@ -6,7 +6,7 @@ Rails.application.routes.draw do
       registrations: 'users/registrations'
      }
 
-
+  root to: 'doctors#index'
  
   resources :users
   resources :doctors
