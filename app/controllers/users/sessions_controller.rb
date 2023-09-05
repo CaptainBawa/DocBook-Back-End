@@ -1,4 +1,5 @@
 class Users::SessionsController < Devise::SessionsController
+  include ActionController::MimeResponds
   before_action :configure_sign_in_params, only: [:create]
 
   protected
