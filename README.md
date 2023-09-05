@@ -9,6 +9,7 @@
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
   - [📷 Video Recording](#video-record)
+  - [📋 Kanban board](#kanban-board)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -56,6 +57,9 @@
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
+- [ ] **List all the available doctors**
+- [ ] **"A user can add or delete doctor **
+- [ ] **Client can reserve appointment with a doctor or delete it **
 
 
 
@@ -70,9 +74,19 @@
 
 <!-- Video recording -->
 
-## 🚀 Live Demo <a name="video-record"></a>
+## 📷 Video Recording <a name="video-record"></a>
 
 - [Video recording ]()
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- Kanban board  -->
+
+## 📋 Kanban board <a name="kanban-board"></a>
+
+- [Kanban board link ](https://github.com/CaptainBawa/DocBook-Back-End/projects/1)
+- [Kanban board Screenshot ](https://drive.google.com/file/d/1UQFPuKcFkbCCIkXd4YtKlj8S8AlCh_r3/view?usp=sharing)
+- Note : **The final number of the team members is 4** 
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -133,12 +147,28 @@ You can deploy this project using: [Render](https://render.com/)
 
 <!-- AUTHORS -->
 
-## 👥 Author <a name="authors"></a>
+## 👥 Authors <a name="authors"></a>
 
-
+👥 Author 1:
 - GitHub: [@ridabensalem](https://github.com/ridabnesalem)
 - Twitter: [@coder_rida](https://twitter.com/coder_rida)
 - LinkedIn: [ridabesalem](https://linkedin.com/in/ridabensalem)
+
+👥 Author 2:
+- GitHub: [@CaptainBawa](https://github.com/CaptainBawa)
+- Twitter: [@BawaCollins](https://twitter.com/BawaCollins)
+- LinkedIn: [captainbawa](https://www.linkedin.com/in/captainbawa/)
+
+👥 Author 3:
+- GitHub: [@tomdan-ai](https://github.com/tomdan-ai)
+- Twitter: [@tomudoh1](https://twitter.com/tomudoh1)
+- LinkedIn: [tomudoh](https://www.linkedin.com/in/tomudoh/)
+
+👥 Author 4:
+- GitHub: [@Christelle-12](https://github.com/Christelle-12)
+- Twitter: [@Chr1Nirere](https://twitter.com/Chr1Nirere)
+- LinkedIn :[LinkedIn](https://www.linkedin.com/in/nirere-marie-christelle-9b139823b/)
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -147,7 +177,9 @@ You can deploy this project using: [Render](https://render.com/)
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Improve the UI/UX**
+- [ ] **Implement proper user authentication from the front end to the server.**
+- [ ] **"Add item" and "Delete item" links are accessible only by users who are admins**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -172,6 +204,10 @@ If you like this project please help it stand out by giving it a star ✨
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 - I would like to thank Microvers for providing this great opportunity and for the project guide as well 👏
+- I would like to thank Mr [ Murat Korkmaz](https://www.behance.net/muratk) for the great [design](https://www.behance.net/gallery/26425031/Vespa-Responsive-Redesign) we followed on this app 👏
+
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
