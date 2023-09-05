@@ -60,7 +60,7 @@ The Front end part of this project : [DocBook-Front-End](https://github.com/Capt
 ### Key Features <a name="key-features"></a>
 - [ ] **List all the available doctors**
 - [ ] **"A user can add or delete doctor **
-- [ ] **Client can reserve appointment with a doctor or delete it **
+- [ ] **Client can reserve an appointment with a doctor or delete it **
 
 
 
@@ -70,12 +70,13 @@ The Front end part of this project : [DocBook-Front-End](https://github.com/Capt
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]()
+- [Live Demo Link](https://doctor-appointement.onrender.com/)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Video recording -->
 
 ## 📷 Video Recording <a name="video-record"></a>
+ - Note: Coming soon ...
 
 - [Video recording ]()
 
