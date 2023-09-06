@@ -30,8 +30,11 @@ class AppointmentsController < ApplicationController
   end
 
   def destroy
-    @appointment.destroy
-    head :no_content
+    if @appointment.destroy
+      head :no_content
+    else
+      render json: { error: 'Failed to delete the appointment' }, status: :unprocessable_entity
+    end
   end
 
   private
