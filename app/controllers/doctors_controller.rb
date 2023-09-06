@@ -25,8 +25,11 @@ class DoctorsController < ApplicationController
 
   def destroy
     doctor = Doctor.find(params[:id])
-    doctor.destroy
-    head :no_content
+    if doctor.destroy
+      head :no_content
+    else
+      render json: { error: 'Failed to delete the doctor' }, status: :unprocessable_entity
+    end
   end
 
   private
